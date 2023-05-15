@@ -7,6 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 .link {
@@ -23,6 +24,7 @@ body {
 }
 
 .all-btns {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
@@ -40,7 +42,15 @@ body {
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.primary-logo-dark {
   color: var(--title-color);
+}
+
+.primary-logo-light {
+  color: #f4f4fd;
 }
 
 .menu-link {
@@ -53,6 +63,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--hover-color);
+}
+
+.aadress {
+  font-style: normal;
 }
 
 .adress-link {
@@ -84,6 +98,7 @@ body {
   line-height: 1.07em;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 /* ========================VALUES======================== */
@@ -116,7 +131,9 @@ body {
 }
 
 /* =======================OUR TEAM===================== */
-
+.team-lisst {
+  background-color: #ffffff;
+}
 .team {
   background-color: #f4f4fd;
 }

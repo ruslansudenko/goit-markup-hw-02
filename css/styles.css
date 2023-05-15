@@ -127,7 +127,8 @@ body {
 }
 
 /* =======================OUR TEAM===================== */
-.team-list {
+.picture-title,
+.picture-text {
   background-color: #ffffff;
 }
 .team {

@@ -49,10 +49,6 @@ body {
   color: var(--title-color);
 }
 
-.primary-logo-light {
-  color: #f4f4fd;
-}
-
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -65,7 +61,7 @@ body {
   color: var(--hover-color);
 }
 
-.aadress {
+.adress {
   font-style: normal;
 }
 
@@ -131,7 +127,7 @@ body {
 }
 
 /* =======================OUR TEAM===================== */
-.team-lisst {
+.team-list {
   background-color: #ffffff;
 }
 .team {
@@ -169,13 +165,6 @@ body {
   background-color: var(--title-color);
 }
 
-.footer-text {
-  font-size: 16px;
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
 .logo-light {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -183,6 +172,17 @@ body {
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--btn-normal);
+}
+
+.primary-logo-light {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 

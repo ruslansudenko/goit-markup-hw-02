@@ -2,12 +2,14 @@
   --main-text-color: #434455;
   --title-color: #2e2f42;
   --hover-color: #404bbf;
-  --btn-normal: #4d5ae5;
+  --main-blue: #4d5ae5;
+  --white: #ffffff;
+  --light-purple: #f4f4fd;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--main-text-color);
+  background-color: var(--white);
 }
 
 .link {
@@ -27,9 +29,9 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -39,10 +41,10 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17em;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--main-blue);
 }
 
 .primary-logo-dark {
@@ -52,7 +54,7 @@ body {
 .menu-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
@@ -67,7 +69,7 @@ body {
 
 .adress-link {
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -81,7 +83,7 @@ body {
 /* ========================HERO========================= */
 
 .hero-btn {
-  background-color: var(--btn-normal);
+  background-color: var(--main-blue);
 }
 
 .hero {
@@ -91,9 +93,9 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07em;
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white);
   text-align: center;
 }
 
@@ -102,14 +104,14 @@ body {
 .value-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
 
 .value-text {
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -119,7 +121,7 @@ body {
 .work-galary-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11em;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -128,16 +130,16 @@ body {
 
 /* =======================OUR TEAM===================== */
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--light-purple);
 }
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11em;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -147,14 +149,14 @@ body {
 .picture-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
 
 .picture-text {
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -169,31 +171,31 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17em;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--btn-normal);
+  color: var(--main-blue);
 }
 
 .primary-logo-light {
-  color: #f4f4fd;
+  color: var(--light-purple);
 }
 
 .footer-text {
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--light-purple);
 }
 
 /* ================Portfolio======================= */
 .portfolio-btn {
-  background-color: #f4f4fd;
-  color: var(--btn-normal);
+  background-color: var(--light-purple);
+  color: var(--main-blue);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--hover-color);
-  color: #ffffff;
+  color: var(--white);
 }
